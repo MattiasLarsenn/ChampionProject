@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body
+{
+    background: #101820;
+    color: #F0E6D2;
+}
+
+#main-header
+{
+    background: #1B2838;
+    color: #C8AA6E;
+    padding: 15px;
+    text-align: center;
+    border: 4px double #C8AA6E;
+    font-family: 'Cinzel', serif;
+}
+
+#champion-container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.champion-card
+{
+    background: #1B2838;
+    color: #C8AA6E;
+    border: 4px double #C8AA6E;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.champion-image
+{
+    display: block;
+    width:70%;
+    height: auto;
+    margin: 0 auto 15px;
+}
+
+.champion-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+.stat
+{
+    display: grid;
+    grid-template-columns: 55px auto;
+    gap: 5px;
+}
+
+.stat span:first-child
+{
+    text-align: left;
+}
+
+.stat span:last-child
+{
+    text-align: left;
+}
